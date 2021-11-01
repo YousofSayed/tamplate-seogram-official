@@ -531,6 +531,11 @@ i {
   font-weight: 0;
   margin-top: 10px;
 }
+@media (max-width:767px){
+  .serv .first-c .countainer p {
+  font-size: 1.2em !important;
+}
+}
 .serv .first-c .countainer .line {
   margin-top: 10px;
   height: 3px;
