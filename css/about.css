@@ -1,0 +1,39 @@
+.header .countainer .r-col .links a:first-child {
+    color: #333;
+    opacity: 0.6;
+  }
+  .header .countainer .r-col .links a:nth-child(2){
+    color: var(--maincolor);
+    opacity: 1;
+  } 
+  .title{
+  }
+  .title .countainer{
+    background-color: #f6f5fc;
+    padding: 150px 0;
+    margin-top: 40px;
+    border-radius:30px ;
+    -webkit-border-radius:30px ;
+    -moz-border-radius:30px ;
+    -ms-border-radius:30px ;
+    -o-border-radius:30px ;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.title .countainer p{
+    letter-spacing: 1px;
+    font-size: 18px;
+    color:#645f88;
+}
+.title .countainer p a{
+    color: var(--maincolor);
+}
+.title .countainer h1{
+    font-size: 50px;
+    color:#645f88;
+    margin-top: 0;
+
+}

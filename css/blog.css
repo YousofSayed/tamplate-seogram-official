@@ -1,0 +1,57 @@
+.header .countainer .r-col .links a:nth-child(2) {
+  color: #333;
+  opacity: 0.6;
+}
+.header .countainer .r-col .links a:nth-child(4) {
+  color: var(--maincolor);
+  opacity: 1;
+}
+.extra {
+  padding: 80px 0;
+}
+.extra .countainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+.extra .countainer .two {
+  display: flex;
+  gap: 0;
+  width: 100%;
+}
+.extra .countainer .two select {
+  padding: 15px 10px;
+  text-transform: capitalize;
+  border: rgba(128, 128, 128, 0.35) 1px solid;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #f6f5fc;
+  width: 50%;
+}
+.extra .countainer .two input {
+  width: 50%;
+  padding-left: 15px;
+  font-size: 19px;
+  border: rgba(128, 128, 128, 0.35) 1px solid;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.extra .countainer .one {
+  width: 30%;
+}
+.extra .countainer .one button {
+  background-color: rgb(97, 97, 136);
+  padding: 15px 15px;
+  display: flex;
+  gap: 7px;
+  color: white;
+  align-items: center;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  width: 100%;
+}
